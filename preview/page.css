@@ -1,28 +1,28 @@
 .container {
-    padding-top: 8px;
-    left: 0;
-    right: 0;
-    height: auto;
-    position: relative;
-    padding-left: 8px;
-    padding-right: 8px;
+  padding-top: 8px;
+  left: 0;
+  right: 0;
+  height: auto;
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .text {
-    display: inline;
-    font-size: 25px;
-    width: auto;
-    height: auto;
+  display: inline;
+  font-size: 25px;
+  width: auto;
+  height: auto;
 }
 
 .text.light {
-    color: rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
