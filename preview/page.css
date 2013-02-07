@@ -18,11 +18,3 @@
 .text.light {
   color: rgb(100, 100, 100);
 }
-
-.left {
-  float:  left;
-}
-
-.right {
-  float: right;
-}

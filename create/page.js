@@ -1,4 +1,5 @@
 var getFormattedTime = function () {
+  
   var ampm = "";
   var d = new Date();
   var hour = d.getHours();
@@ -32,6 +33,11 @@ var getFormattedTime = function () {
 
 $(function () {
   $('#post').click(function (e) {
+    
+    if (BL.validateInput($('#name-i'))) {
+      return false;
+    }
+  
     var content = JSON.stringify({name:$('#name-i').val(), time:getFormattedTime()});
     BL.createContent(content);
   });
